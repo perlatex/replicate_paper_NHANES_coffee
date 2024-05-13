@@ -1,0 +1,18 @@
+
+
+
+```{r}
+my_pkgs <- 
+  c("tidyverse", "haven", "sjPlot",                       # 数据整理
+    "survey", "srvyr", "svyVGAM",                         # 统计建模
+    "gtsummary", "flextable", "ftExtra", "prettyunits"    # 表格美化
+    )
+
+install.packages(my_pkgs, 
+    repos = "http://mirrors.tuna.tsinghua.edu.cn/CRAN", 
+    dependencies = TRUE
+)
+```
+
+
+
